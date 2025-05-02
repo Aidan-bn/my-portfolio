@@ -1,53 +1,22 @@
-// function hamburger() {
-//   const hamburgerMenu = document.getElementsByClassName('nav-icon');
-//   const hamburgerMenuExit = document.getElementsByClassName('close');
-//   const hamburgerMenuItems = document.getElementsByClassName('hamburger-list');
-
-//   hamburgerMenu[0].addEventListener('click', () => {
-//     document.getElementsByClassName('menu')[0].style.display = 'flex';
-//   });
-
-//   hamburgerMenuExit[0].addEventListener('click', () => {
-//     document.getElementsByClassName('menu')[0].style.display = 'none';
-//   });
-
-//   [...hamburgerMenuItems].forEach((element) => {
-//     element.addEventListener('click', () => {
-//       document.getElementsByClassName('menu')[0].style.display = 'none';
-//     });
-//   });
-// }
-// hamburger();
-
 const arr = [
   {
     id: 1,
     imageDesk: 'image/popup-desk.jpg',
     imageMob: 'image/global.png',
     title: 'Global Fortune Company Limited Website',
-    description: "Website intended to showcase company's activities and plots selling. I used figma to design UI",
+    description: "In this project I made the landing page, contact form and subscription functionalities and also the admin panel for managing the website. I used PHP for the backend and MySQL for the database. I also used Figma for the design.",
     live: 'https://aidan-bn.github.io/global/',
     source: 'https://github.com/Aidan-bn/global/tree/final',
     tech: ['Figma', 'HTML', 'CSS', 'Javascript', 'PHP'],
     status: "Completed project",
     finished: true,
    },
-  // {
-  //   id: 2,
-  //   imageDesk: 'image/popup-desk.jpg',
-  //   imageMob: 'image/popup-mob.jpg',
-  //   title: 'Sample Transportation App',
-  //   description: "An application for tracking records of blood sample transported to health centres for check up purposes. I made a figma design and code the Front-End using ReactJS, The project is still under construction",
-  //   live: 'https://aidan-bn/',
-  //   source: 'https://github.com/GiftMfugale/HJFMRI-Sample-Transportation-Application',
-  //   tech: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Ruby on Rails', 'React', 'Docker'],
-  // },
   {
     id: 3,
     imageDesk: 'image/popup-desk.jpg',
     imageMob: 'image/champion-agro-world.png',
     title: 'Champion Agro World Limited.',
-    description: "Website for a company which is committed to provide cutting-edge agricultural solutions for farmer and agribusinesses. In this project I made the landing page, contact form and subscription functionalities",
+    description: "Website for a company committed to provide cutting-edge agricultural solutions for farmer and agribusinesses. It is a collaborative project, I contributes to the landing page, contact form and subscription functionalities",
     live: 'https://aidan-bn/',
     source: 'https://github.com/chimwemwe007/Champion_Agro_World',
     tech: ['HTML', 'Javascript', 'Bootstrap', 'PHP'],
@@ -59,23 +28,13 @@ const arr = [
     imageDesk: 'image/popup-desk.jpg',
     imageMob: 'image/fast-pizza.png',
     title: 'Fast Pizza Application',
-    description: "A project for learning purposes. user can view available pizza and order according to his/her preference. List of pizza are being loaded with an API",
+    description: "A project for learning purposes. user can view available pizza and order according to their preference. List of pizza are being loaded with an API",
     live: 'https://aidan-bng/',
     source: 'https://github.com/Aidan-bn/fast-pizza/',
     tech: ['HTML', 'CSS', 'Javascript', 'ReactJS', 'Tillwindcss', 'Redux', 'Context API', 'API'],
     status: "Under Progress project",
     finished: false
   },
-  // {
-  //   id: 4,
-  //   imageDesk: 'image/popup-desk.jpg',
-  //   imageMob: 'image/popup-mob.jpg',
-  //   title: 'Use Popcorn',
-  //   description: "A project for learning purposes. user can view available pizza and order according to his/her preference. List of pizza are being loaded with an API",
-  //   live: 'https://aidan-bng/',
-  //   source: 'https://github.com/Aidan-bn/use-popcorn/',
-  //   tech: ['ReactJS', 'Javascript', 'CSS'],
-  // },
   {
     id: 4,
     imageDesk: 'image/popup-desk.jpg',

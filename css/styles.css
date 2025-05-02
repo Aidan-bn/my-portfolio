@@ -24,6 +24,14 @@ header > img {
   display: none;
 }
 
+.popup-align {
+  text-align: center;
+}
+
+.popup-align hr {
+  margin-top: 1rem;
+}
+
 @media (min-width: 768px) {
   header {
     background-image: none;
@@ -264,8 +272,8 @@ h5 {
   transition: all 0.5s;
 }
 
-.image-wrapper img {
-  width: 100%;
+.img-demo { 
+  max-width: 100%;
 }
 
 .social li img {
@@ -386,12 +394,6 @@ h5 {
   }
 }
 
-.work .div-wrapper {
-  padding-bottom: 68%;
-  background-color: #ebf0ee;
-  width: 100%;
-}
-
 .work .bottom-part {
   border-radius: 8px 8px 0 0;
   background-color: #fff;
@@ -492,6 +494,23 @@ footer a {
   background: #008552;
 }
 
+.mid-about {
+  background: #008552;
+  padding: 2.5rem;
+  margin: 20px auto;
+  color:#ebf0ee;
+  text-align: center;
+}
+
+.mid-about > .p-wrapper {
+  padding: 25px 40px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.mid-about > .p-wrapper > p {
+  margin-bottom: 2rem;
+}
 .about {
   max-width: 1165px;
   padding-left: 25px;
@@ -855,6 +874,7 @@ footer .social {
   align-self: stretch;
 }
 
+
 footer .social::after {
   content: "";
   width: 57px;
@@ -867,12 +887,12 @@ footer .social::after {
 }
 
 footer .line {
-  background-color: #000;
+  background-color:#36b37f;
   height: 5px;
   border-radius: 5px;
   display: inline-block;
   width: 150px;
-  margin-top: 300px;
+  margin-top: 1rem;
   margin-bottom: 5px;
 }
 
@@ -934,8 +954,8 @@ footer .line {
   padding-right: 24px;
   padding-top: 80px;
   padding-bottom: 40px;
-  margin-right: auto;
-  margin-left: auto;
+  margin:auto;
+  top: 2rem;
   background-color: #fff;
   border-radius: 8px;
   position: relative;
@@ -947,8 +967,8 @@ footer .line {
   font-size: 24px;
   background-color: #ebecf0;
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 15px;
+  right: 50%;
   color: #67798e;
   cursor: pointer;
 }
@@ -959,9 +979,9 @@ footer .line {
 }
 
 .popup p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  margin: 9px;
 }
 
 .title-and-btn {
@@ -1006,7 +1026,7 @@ footer .line {
 
 @media (max-width: 768px) {
   .popup {
-    padding: 16px;
+    padding: 45px 16px;
   }
 
   .popup p {
@@ -1045,6 +1065,15 @@ footer .line {
     background-color: transparent;
     color: #fff;
     font-size: 28px;
+  }
+
+  .popup .closeclass {
+    right: 12px;
+    top: 8px;
+    border: #67798e solid 1px;
+    border-radius: 50%;
+    color: #008552;
+    font-weight: 600;
   }
 }
 

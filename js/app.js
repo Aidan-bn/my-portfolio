@@ -1,91 +1,60 @@
-// function hamburger() {
-//   const hamburgerMenu = document.getElementsByClassName('nav-icon');
-//   const hamburgerMenuExit = document.getElementsByClassName('close');
-//   const hamburgerMenuItems = document.getElementsByClassName('hamburger-list');
-
-//   hamburgerMenu[0].addEventListener('click', () => {
-//     document.getElementsByClassName('menu')[0].style.display = 'flex';
-//   });
-
-//   hamburgerMenuExit[0].addEventListener('click', () => {
-//     document.getElementsByClassName('menu')[0].style.display = 'none';
-//   });
-
-//   [...hamburgerMenuItems].forEach((element) => {
-//     element.addEventListener('click', () => {
-//       document.getElementsByClassName('menu')[0].style.display = 'none';
-//     });
-//   });
-// }
-// hamburger();
-
 const arr = [
   {
     id: 1,
     imageDesk: 'image/popup-desk.jpg',
-    imageMob: 'image/popup-mob.jpg',
-    title: 'Keeping track of hundreds of component one',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br>industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    live: 'https://www.microverse.org/',
-    source: 'hhttps://www.microverse.org/',
-    tech: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-  },
-  {
-    id: 2,
-    imageDesk: 'image/popup-desk.jpg',
-    imageMob: 'image/popup-mob.jpg',
-    title: 'Keeping track of hundreds of component two',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    live: 'https://www.microverse.org/',
-    source: 'https://www.microverse.org/',
-    tech: ['CSS', 'GitHub', 'Javascript', 'Bootstrap', 'Codepen'],
-  },
+    imageMob: 'image/global.png',
+    title: 'Global Fortune Company Limited Website',
+    description: "In this project I made the landing page, contact form and subscription functionalities and also the admin panel for managing the website. I used PHP for the backend and MySQL for the database. I also used Figma for the design.",
+    live: 'https://aidan-bn.github.io/global/',
+    source: 'https://github.com/Aidan-bn/global/tree/final',
+    tech: ['Figma', 'HTML', 'CSS', 'Javascript', 'PHP'],
+    status: "Completed project",
+    finished: true,
+   },
   {
     id: 3,
     imageDesk: 'image/popup-desk.jpg',
-    imageMob: 'image/popup-mob.jpg',
-    title: 'Keeping track of hundreds of component three',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    live: 'https://www.microverse.org/',
-    source: 'hhttps://www.microverse.org/',
-    tech: ['HTML', 'Javascript', 'Bootstrap'],
+    imageMob: 'image/champion-agro-world.png',
+    title: 'Champion Agro World Limited.',
+    description: "Website for a company committed to provide cutting-edge agricultural solutions for farmer and agribusinesses. It is a collaborative project, I contributes to the landing page, contact form and subscription functionalities",
+    live: 'https://aidan-bn/',
+    source: 'https://github.com/chimwemwe007/Champion_Agro_World',
+    tech: ['HTML', 'Javascript', 'Bootstrap', 'PHP'],
+    status: "Under Progress project",
+    finished: false,
   },
   {
     id: 4,
     imageDesk: 'image/popup-desk.jpg',
-    imageMob: 'image/popup-mob.jpg',
-    title: 'Keeping track of hundreds of component four',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    live: 'hthttps://www.microverse.org/',
-    source: 'https://www.microverse.org/',
-    tech: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    imageMob: 'image/fast-pizza.png',
+    title: 'Fast Pizza Application',
+    description: "A project for learning purposes. user can view available pizza and order according to their preference. List of pizza are being loaded with an API",
+    live: 'https://aidan-bng/',
+    source: 'https://github.com/Aidan-bn/fast-pizza/',
+    tech: ['HTML', 'CSS', 'Javascript', 'ReactJS', 'Tillwindcss', 'Redux', 'Context API', 'API'],
+    status: "Under Progress project",
+    finished: false
   },
   {
-    id: 5,
+    id: 4,
     imageDesk: 'image/popup-desk.jpg',
-    imageMob: 'image/popup-mob.jpg',
-    title: 'Keeping track of hundreds of components five',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    live: 'https://www.microverse.org/',
-    source: 'https://www.microverse.org/',
-    tech: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-  },
-  {
-    id: 6,
-    imageDesk: 'image/popup-desk.jpg',
-    imageMob: 'image/popup-mob.jpg',
-    title: 'Keeping track of hundreds of components six',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    live: 'https://www.microverse.org/',
-    source: 'https://www.microverse.org/',
-    tech: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    imageMob: 'image/baptism.png',
+    title: 'Baptism Application',
+    description: "A project for learning purposes. church can register online their belivers after being baptised",
+    live: 'https://aidan-bng/',
+    source: 'https://github.com/Aidan-bn/Auth/',
+    tech: ['HTML', 'Taillwindcss', 'Javascript', 'React', 'NodeJS', 'Codepen'],
+    status: "Under Progress project",
+    finished: false
   },
 ];
 let htmlstring = '';
 arr.forEach((item) => {
   let string = `
     <div class="work-item">
-      <div class="div-wrapper"></div>
+      <div class="div-wrapper">
+      <img src="${item.imageMob}" alt="champion-agro-world" class="img-demo"/>
+      </div>
       <div class="bottom-part">
           <h4>${item.title}</h4>
           <ul>`;
@@ -127,14 +96,15 @@ getprojbtn.forEach((item) => {
     const result = arr.find((item1) => item1.id === Number(getId));
     let popupHtml = '';
     popupHtml = `
-              <picture class="image-wrapper">
-                  <source media="(min-width:768px)" srcset="${result.imageDesk}" alt="">
-                  <img src="${result.imageMob}" alt="" >
-              </picture>
+              <div class="image-wrapper popup-align">
+                  <strong>${result.status}</strong>
+                  <hr />
+                  <p>${result.description}</p>
+              </div>
               <div class="title-and-btn">
                   <h2>${result.title}</h2>
                   <div class="btn-wrapper">
-                      <a href="${result.live}" class="btn-primary" type="submit">See live <img src="image/popup-see.svg"></a>
+                      <a href="${result.finished ? result.live : '' }" class="btn-primary" type="submit">${result.finished ? 'See live <img src="image/popup-see.svg">' : 'No demo'} </a>
                       <a href="${result.source}" class="btn-primary" type="submit">See source<img src="image/popup-GitHub.svg"></a>
                   </div>
               </div>
@@ -148,7 +118,7 @@ getprojbtn.forEach((item) => {
                   </ul>
               </div>
               <p>
-                  ${result.description}
+                  Technologies used in this Project
               </p>
               `;
     getpopupclose.insertAdjacentHTML('afterend', popupHtml);

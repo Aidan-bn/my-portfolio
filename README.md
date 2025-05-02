@@ -10,7 +10,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://aidan-bn.github.io/setup-and-mobile-version-skeleton/)
+[Live Demo Link](https://aidan-bn.github.io/my-portfolio/)
 
 ## Getting Started
 

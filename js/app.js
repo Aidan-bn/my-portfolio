@@ -58,7 +58,7 @@ arr.forEach((item) => {
       <div class="bottom-part">
           <h4>${item.title}</h4>
           <ul>`;
-  let string1 = '';
+  let string1 = " ";
   item.tech.forEach((li) => {
     string1 += `<li><a>${li}</a></li>`;
   });
